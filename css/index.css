@@ -1,0 +1,452 @@
+/*
+* @Author: dell
+* @Date:   2018-03-21 10:31:25
+* @Last Modified by:   dell
+* @Last Modified time: 2018-03-23 11:17:24
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	text-shadow: none;
+
+}
+header{
+	width: 100%;
+	height: 0.53rem;
+	background: #212121;
+}
+.icon{
+	width: 1.60rem;
+	height: 0.53rem;
+    float: left;
+   
+}
+/* .icon i{
+    float:left; 
+	font-size: 0.29rem;
+	color: white;
+
+} */
+.icon a{
+	display: block;
+	width: 1.2rem;
+	height: 0.288rem;
+    margin-top: 0.12rem;
+    margin-left: 0.2rem;
+	background:url(../img/logo.png) no-repeat 0 0;
+	background-size: cover;
+}
+.icon_right{
+	width: 0.6rem;
+	height: 0.53rem;
+	float: right ;
+}
+.icon_right span{
+	display: block;
+	width: 0.26rem;
+	height: 0.02rem;
+	background: #A9A9A9;
+	margin-bottom: 0.05rem;
+	margin-right: 0.19rem;
+	float: right;
+	margin-top: 0.19rem;
+}
+.icon_right span:nth-child(2){
+	margin-top: 0;
+}
+.icon_right span:last-child{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.icon_right a{
+	display: block;
+	width: 0.6rem;
+	height: 0.53rem
+}
+.swiper-container{
+	width: 100%;
+	height: 5.63rem;
+	overflow: hidden;
+	float: left;
+
+}
+.swiper-wrapper {
+	width: 100%;
+	height: 5.63rem;
+	float: left;
+	position: relative;
+ }
+.swiper-slide{
+	width: 100%;
+	height: 5.63rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    background: url(../img/lan.jpg) no-repeat -1.55rem 0; 
+    background-size: cover;
+}
+.swiper-slide a{
+	display: block;
+	width: 1.1rem;
+	height: 0.64rem;
+	float: left;
+	margin-top: 1.8rem;
+	margin-left: 1.55rem;
+}
+.swiper-slide a:last-child{
+	margin-left: 0;
+}
+.s2{
+	background: url(../img/hei.jpg) no-repeat -1.55rem 0; 
+    background-size: cover;
+}
+.s2 a{
+	display: block;
+	width: 1.1rem;
+	height: 0.64rem;
+	float: left;
+	margin-top: 1.8rem;
+	margin-left: 1.45rem;
+}
+.s3{
+	background: url(../img/chijiu.jpg) no-repeat -1.55rem 0; 
+    background-size: cover;
+}
+.s3 a{
+    display: block;
+	width: 1.1rem;
+	height: 0.64rem;
+	float: left;
+	margin-top: 2.3rem;
+	margin-left: 1.7rem;
+}
+.n6p{
+	width: 100%;
+	height: 2.5rem;
+	float: left;
+
+}
+.n6p a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	font-size: 0.1rem;
+	text-align: center;
+	color: #926666;
+	float: left;
+	position: relative;
+
+}
+h1{
+	display: block;
+	width: 3rem;
+	height: 0.3rem;
+	position: absolute;
+    top: 0.2rem;
+    left: 0.5rem;
+    line-height: 0.3rem;
+}
+h2{
+	display: block;
+	width: 3rem;
+	height: 0.24rem;
+	position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    line-height: 0.24rem;
+}
+.n6p img{
+	display: block;
+	width: 100%;
+	height: 1.76rem;
+	position: absolute;
+	top: 0.74rem;
+	background: url(../img/n9p.jpg) no-repeat -0.1rem -0.5rem; 
+    background-size: cover;
+}
+.n6p{
+	width: 100%;
+	height: 2.5rem;
+	float: left;
+
+}
+.tianmao a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	font-size: 0.1rem;
+	text-align: center;
+	color: #926666;
+	float: left;
+	position: relative;
+
+}
+h1{
+	display: block;
+	width: 3rem;
+	height: 0.3rem;
+	position: absolute;
+    top: 0.2rem;
+    left: 0.5rem;
+    line-height: 0.3rem;
+}
+h2{
+	display: block;
+	width: 3rem;
+	height: 0.24rem;
+	position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    line-height: 0.24rem;
+}
+.tianmao img{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	position: absolute;
+	top: 0;
+	background: url(../img/tianmao.jpg) no-repeat -0.18rem 0; 
+    background-size: cover;
+}
+.jd a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	font-size: 0.1rem;
+	text-align: center;
+	color: #926666;
+	float: left;
+	position: relative;
+
+}
+h1{
+	display: block;
+	width: 3rem;
+	height: 0.3rem;
+	position: absolute;
+    top: 0.2rem;
+    left: 0.5rem;
+    line-height: 0.3rem;
+}
+h2{
+	display: block;
+	width: 3rem;
+	height: 0.24rem;
+	position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    line-height: 0.24rem;
+}
+.jd img{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	position: absolute;
+	top: 0;
+	background: url(../img/jd.jpg) no-repeat -0.18rem 0; 
+    background-size: cover;
+}
+.hua3 a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	font-size: 0.1rem;
+	text-align: center;
+	color: #926666;
+	float: left;
+	position: relative;
+
+}
+h1{
+	display: block;
+	width: 3rem;
+	height: 0.3rem;
+	position: absolute;
+    top: 0.2rem;
+    left: 0.5rem;
+    line-height: 0.3rem;
+}
+h2{
+	display: block;
+	width: 3rem;
+	height: 0.24rem;
+	position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    line-height: 0.24rem;
+}
+.hua3 img{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	position: absolute;
+	top: 0;
+	background: url(../img/hua3.jpg) no-repeat -0.18rem 0; 
+    background-size: cover;
+}
+.footer{
+	width: 100%;
+	height: 4rem;
+	float: left;
+	background: #f9f9f9;
+	position: relative;
+}
+.footer a{
+	display: block;
+    width: 3.7259rem;
+    height: 0.37rem;
+    float: left;
+    font-size: 0.15rem;
+    margin-top: 0.18rem;
+    line-height: 0.37rem;
+    margin-left: 0.23rem;
+    border-bottom: 0.01rem solid #CCCCCC;
+    color: #666666;
+    font-weight: bold;
+}
+.footer a:nth-child(2),.footer a:nth-child(3),.footer a:nth-child(4){
+    margin-top: 0;
+}
+.footer a span{
+	display: block;
+	width: 0.37rem;
+	height: 0.37rem;
+	float: right; 
+	text-align: center;
+	font-weight: bold;
+}
+.contact-tel{
+	width: 3.7259rem;
+	height: 1.01rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.18rem;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+	position: relative;
+}
+.contact-tel p{
+	display: block;
+	width: 3.7259rem;
+	height: 0.27rem;
+	font-size: 0.2rem;
+	color: #333333;
+	text-align: center;
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.contact-tel a{
+	display: block;
+	width: 1.1109rem;
+	height: 0.20rem;
+	margin-top: 0;
+	position: absolute;
+	top: 0;
+	left: 1.1rem;
+	border-bottom: 0;
+
+}
+.contact-tel li{
+	display: block;
+	width: 3.7259rem;
+	height: 0.22rem;
+	float: left;
+	font-size: 0.1rem; 
+	line-height: 0.22rem;
+	text-align: center;
+	color: #666666;
+}
+.copyright{
+	width: 4.0259rem;
+	height: 1.24rem;
+	float: left;
+	margin-left: 0.05rem;
+	position: relative;
+	color: #aaaaaa;
+}
+.copyright p{
+	width: 3.7256rem;
+	height: 0.18rem;
+	font-size: 0.11rem;
+}
+.copyright p a{
+	display: block;
+	width: 0.48rem;
+	height: 0.14rem;
+	margin-top: 0;
+	position: absolute;
+	top: 0;
+	left:-0.25rem;
+	border-bottom: 0;
+
+}
+.copyright p a:last-child{
+    display: block;
+	width: 0.48rem;
+	height: 0.14rem;
+	margin-top: 0;
+	position: absolute;
+	top: 0;
+	left:0.5rem;
+	border-bottom: 0;
+}
+.icon-1{
+	display: block;
+	width: 1.8959rem;
+	height:0.54rem;
+	float: left;
+	top: 0.6rem;
+	left: 0rem;
+} 
+.wx{
+	width: 0.36rem;
+	height: 0.35rem;
+	float: left;
+	margin-right: 0.10rem;
+    background:url(../img/wx.png) no-repeat 0 0; 
+}
+.wb{
+	width: 0.36rem;
+	height: 0.35rem;
+	float: left;
+	margin-right: 0.10rem;
+    background:  url(../img/wb.png) no-repeat 0 0;
+}
+.wb a{
+	display: block;
+	width: 0.36rem;
+	height: 0.35rem;
+	margin-left: 0;
+	margin-top: 0;
+
+}
+.yun{
+	width: 0.36rem;
+	height: 0.35rem;
+	float: left;
+	margin-right: 0.10rem;
+    background: url(../img/yun.png) no-repeat 0 0;
+}
+.yun a{
+	display: block;
+	width: 0.36rem;
+	height: 0.35rem;
+	margin-left: 0;
+	margin-top: 0;
+}
+.tb{
+	width: 0.36rem;
+	height: 0.35rem;
+	float: left;
+    background: url(../img/tb.png) no-repeat 0 0;
+}
+.tb a{
+	display: block;
+	width: 0.36rem;
+	height: 0.35rem;
+	margin-left: 0;
+	margin-top: 0;
+}
